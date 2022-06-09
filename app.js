@@ -40,6 +40,7 @@ if(process.env.NODE_ENV == "production"){
     app.use(express.static("Shockmechanica/dist"));
     const path=require("path");
         app.get("*",(req,res)=>{
+            res.json("server started")
             res.sendFile(path.resolve("server","Shockmechanica","dist","index.html"));
         })
 }
