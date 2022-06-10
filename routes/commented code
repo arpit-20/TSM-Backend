@@ -1,0 +1,71 @@
+            // if(req.body.service_form==true){
+
+            //     console.log("service, form");
+            //     this.mailOptions = {
+            //         from: 'Mail.theshockmechanica@gmail.com',
+            //         to: ['arpitghai20@gmail.com','theshockmechanica@gmail.com'],
+            //         cc:req.body.email,
+            //         subject: 'Test node mail',
+            //         text: `Hi` + ' ' + `${req.body.name}`  +"\n"+
+            //         `This is an automated mail confirming your service request for` + ' ' + 
+            //         `${req.body.number_of_pairs}`  +` ` + `pairs of` + ` ` + `${req.body.shocker_brand}.`
+            //          + ` ` + `The service requested is`  + ' ' +`${req.body.type_of_service}.` +"\n"+
+            //         'Hence,quotation for team' + ` ` + `${req.body.team_name}` + ` ` + `will be mailed to you by EOD.` +"\n"+
+            //         `For any further queries, please don't hesitate to get in touch with us at (theshockmechanica@gmail.com or 9068056922).` +"\n"+
+            //         `Sincerely,` +"\n"+
+            //         `Harsh Jha` +"\n"+
+            //         `The Shock Mechanica`
+                    
+            //     }
+            // }
+            // else if(req.body.purchase_form==true){
+            //     this.mailOptions = {
+            //         from: 'Mail.theshockmechanica@gmail.com',
+            //         to: ['arpitghai20@gmail.com','theshockmechanica@gmail.com'],
+            //         cc:req.body.email,
+            //         subject: 'Test node mail',
+            //         text:`Hi` + ' ' + `${req.body.name},`  +"\n"+
+            //         `This is an automated mail confirming your interest in buying` + ' ' + 
+            //         `${req.body.number_of_peices}` + ` ` + `peices of` + ` ` + `${req.body.part_type}`+"."+"\n"+
+            //           + ' ' +`Hence, quotation for team` + ` ` + `${req.body.team_name}` + ` ` + `will be mailed to you by EOD.` + ' ' +
+            //         `For any further queries, please don't hesitate to get in touch with us at (theshockmechanica@gmail.com or 9068056922).` + "\n" +
+            //         `Sincerely,` + "\n" +
+            //         `Harsh Jha`+ "\n"+
+            //         `The Shock Mechanica`
+                    
+            //     }
+            // }else if(req.body.contact_form==true){
+            //     this.mailOptions = {
+            //         from: 'Mail.theshockmechanica@gmail.com',
+            //         to: ['arpitghai20@gmail.com','theshockmechanica@gmail.com'],
+            //         cc:req.body.email,
+            //         subject: 'Test node mail',
+            //         text:`Hi` + ' ' + `${req.body.name}`  + "\n" +
+            //         `This is an automated mail considering your requirement of` + ' ' + `${req.body.other_requirement}`   +  "\n" +
+            //         `We are looking in to your requirement and will respond you in time. ` + "\n"+
+            //         `For any further queries, please don't hesitate to get in touch with us at (theshockmechanica@gmail.com or 9068056922).` +  "\n" +
+            //         `Sincerely,` +  "\n" +
+            //         `Harsh Jha` +  "\n" +
+            //         `The Shock Mechanica`
+                    
+            //     }
+            // }
+
+
+        //     nodeMail.sendMail(this.mailOptions, function (error, Info) {
+        //         if (error) {
+        //             res.status(400).json(error)
+        //             console.log(error);
+    
+        //         } else {
+        //             if(Info.response){
+                        
+        // res.status(201).json(consumerData);
+                    // console.log('email has been sent', Info.response);
+                    // }else{
+
+                    // console.log('email has been sent', Info.rejected);
+                    // }
+    
+        //         }
+        //     })
