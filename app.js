@@ -17,11 +17,6 @@ const Port=process.env.PORT || 7200
 const userRouter=require('./routes/userRoutes');
 
 const customerRouter=require('./routes/customerRoutes');
-app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-   next();
-  });
  
 app.use('/user',userRouter);
 
