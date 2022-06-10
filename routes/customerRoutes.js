@@ -126,12 +126,18 @@ router.post('/', async (req, res) => {
             if (error) {
                 res.status(400).json(error)
                 console.log(error);
+                
+                customerData["email_sent"]=false;
                 res.status(201).json(customerData);
             } else {
                 if (Info.response) {
+                    customerData["email_sent"]=true;
                     res.status(201).json(customerData);
+                    
                     console.log('email has been sent', Info.response);
                 } else {
+                    
+                    customerData["email_sent"]=false;
                     console.log('email has been sent', Info.rejected);
 
                     res.status(201).json(customerData);
