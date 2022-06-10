@@ -11,7 +11,7 @@ secure:false,
 requireTLS:true,
 auth:{
     user:'Mail.theshockmechanica@gmail.com',
-    pass:'tsmjatayu'
+    pass:'tsmfox2019'
 }
 })
 
